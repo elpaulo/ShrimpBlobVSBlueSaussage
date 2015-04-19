@@ -21,7 +21,7 @@ BasicGame.SplashScreen = function (game) {
     }
 
     this.startGame = function(sprite) {
-        this.game.state.start('Level', true, false);
+        this.game.state.start('Menu', true, false, 1, false, 0);
     }
 };
 
@@ -30,7 +30,7 @@ BasicGame.SplashScreen.prototype = {
     preload: function () {
         console.log('SplashScreen is alive');
         this.Background = game.add.sprite(0, 0, "backgroundSplashScreen");
-        this.Music = game.add.audio('gameMusic');
+
 
         this.PressStartText = game.add.bitmapText(325, 540,"oldschool_font", "CLICK TO START", 25);
         game.time.events.loop(Phaser.Timer.SECOND, this.pressStartBlink, this);
@@ -44,7 +44,10 @@ BasicGame.SplashScreen.prototype = {
 
     create: function () {
         console.log('Main Menu create');
+        this.Music = game.add.audio('gameMusic');
+
         this.Music.play('',0,1,true);
+
     },
 
     update: function() {

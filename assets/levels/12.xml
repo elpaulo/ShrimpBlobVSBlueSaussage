@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<level>
+	<startPositions>
+		<player x="64" y="55" />
+		<saussage x="400" y="352" />
+	</startPositions>
+	<enemies>
+		<!-- 1 -->
+		<enemy startx="56" starty="592" endx="56" endy="128" duration="750" />
+		<!-- 2 -->
+		<enemy startx="752" starty="128" endx="176" endy="128" duration="1000" />
+		<!-- 3 -->
+		<enemy startx="160" starty="160" endx="160" endy="544" duration="2000" />
+		<!-- 4 -->
+		<enemy startx="208" starty="544" endx="624" endy="544" duration="500" />
+		<!-- 5 -->
+		<enemy startx="752" starty="192" endx="752" endy="592" duration="3000" />
+		<!-- 6 -->
+		<enemy startx="656" starty="240" endx="656" endy="528" duration="750" />
+		<!-- 7 -->
+		<enemy startx="256" starty="240" endx="592" endy="240" duration="500" />
+		<!-- 8 -->
+		<enemy startx="256" starty="448" endx="256" endy="304" duration="1000" />
+		<!-- 9 -->
+		<enemy startx="320" starty="448" endx="544" endy="448" duration="750" />
+		<!-- 10 -->
+		<enemy startx="560" starty="320" endx="560" endy="400" duration="750" />
+		
+	</enemies>
+</level>

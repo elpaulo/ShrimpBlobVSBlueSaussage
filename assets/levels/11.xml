@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<level>
+	<startPositions>
+		<player x="64" y="152" />
+		<saussage x="768" y="608" />
+	</startPositions>
+	<enemies>
+		<enemy startx="496" starty="48" endx="496" endy="592" duration="2000" />
+		<enemy startx="448" starty="592" endx="448" endy="48" duration="2000" />
+	</enemies>
+</level>

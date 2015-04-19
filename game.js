@@ -10,5 +10,7 @@ var game = new Phaser.Game(800, 640, Phaser.AUTO, 'theGame');
 game.state.add('SplashScreen', BasicGame.SplashScreen);
 game.state.add('Preloader', BasicGame.Preloader);
 game.state.add('Level', BasicGame.Level);
+game.state.add('Boot', BasicGame.Boot);
+game.state.add('Menu', BasicGame.Menu);
 
-game.state.start('Preloader', true, false);
+game.state.start('Boot', true, false);
